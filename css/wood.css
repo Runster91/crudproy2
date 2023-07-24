@@ -1,0 +1,38 @@
+: :root {
+    --main-color: black;
+    --secondary-color: Red;
+}
+
+header{
+    color: crimson;
+    background-color: black;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+button{
+    color: orangered;
+    font-weight: bolder;
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-color: red;
+    border-radius: 12px;
+
+}
+
+
+footer{
+    background-color: black;
+    height: 150px;
+    width:100%;
+}
+.spacer{
+    height: 200px;
+
+}
+

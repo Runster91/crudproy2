@@ -20,7 +20,7 @@ button{
     font-weight: bolder;
     font-size: 100%;
     background-color: rgba(0, 0, 0, 0.795);
-    border-color: red;
+    border-color: rgba(233, 191, 6, 0.795);
     border-radius: 12px;
 
 }
@@ -30,9 +30,87 @@ footer{
     background-color: black;
     height: 150px;
     width:100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    border-top: 5px solid rgb(163, 27, 27);
+    
+}
+
+img{
+    height: 200px;
+    width: 100%;
+    we
+    
+}
+
+section{
+    border-bottom:5px solid red;
+   
+}
+
+
+table{
+   
+    padding: 1em;
+
+    
+}
+
+th{
+    border: 5px solid white; 
+    
+}
+ td{
+    border: 5px solid rgb(206, 11, 11);
+    
+
+ }
+.sm{
+    height: 50px;
+    width: 50px;
+    margin-top: 2em;
 }
 .spacer{
     height: 200px;
 
 }
 
+.sdk{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    padding: 1px;
+    color: white;
+}
+
+#display-data{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#crud-form{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    
+}
+
+@media screen(max-widht: 600px) {
+    .overall{
+        
+        width: fit-content;
+    }
+    
+    .sdk{
+        width:fit-content;
+    }
+}

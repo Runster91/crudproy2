@@ -3,7 +3,7 @@
 ####This  is  the  second proyect  of  this bootcamp
 
 For  further information  please visit
-[Github](https://github.com/Runster91/landing/tree/lander)
+[Github](https://github.com/Runster91/crudproy2)
 
 Please reach out  for any suggestions , comments or  feedback!
 

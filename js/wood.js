@@ -9,7 +9,7 @@ function displayData() {
     displayDiv.innerHTML = "";
 
     if (data.length === 0) {
-        displayDiv.innerHTML = "<p>No data found.</p>";
+        displayDiv.innerHTML = "<p>Se el primero en unirte!</p>";
     } else {
         let table = "<table><tr><th>Name</th><th>Email</th><th>Actions</th></tr>";
 

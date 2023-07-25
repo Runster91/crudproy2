@@ -28,7 +28,6 @@ button{
 
 footer{
     background-color: black;
-    height: 150px;
     width:100%;
     display: flex;
     align-content: center;
@@ -39,9 +38,9 @@ footer{
 }
 
 img{
-    height: 200px;
+    height: fit-content;
     width: 100%;
-    we
+    
     
 }
 
@@ -68,21 +67,28 @@ th{
 
  }
 .sm{
-    height: 50px;
-    width: 50px;
-    margin-top: 2em;
+    height: 2em;;
+    width: 100%;
+    align-content: center;
+    
 }
 .spacer{
-    height: 200px;
+    height: 1070px;
 
+}
+
+.tort {
+    
+    
+    
 }
 
 .sdk{
     background-color: orangered;
     display: flex;
     justify-content: center;
+    align-content: center;
     border: 5px solid red;
-    padding: 1px;
     color: white;
 }
 
@@ -91,6 +97,7 @@ th{
     color: white;
     display: flex;
     justify-content: space-around;
+   
 
 }
 
@@ -101,7 +108,7 @@ th{
     display: flex;
     justify-content: space-around;
     padding: 1em;
-    
+    height: 2em;
 }
 
 @media screen(max-widht: 600px) {
@@ -112,5 +119,6 @@ th{
     
     .sdk{
         width:fit-content;
+        margin-bottom: 2em;
     }
 }

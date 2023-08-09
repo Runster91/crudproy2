@@ -107,19 +107,19 @@ th{
     height: 2em;
 }
 
-@media screen(max-widht: 600px) {
+@media screen(max-width: 600px) {
     .overall{
         
         width: fit-content;
         display: flex;
         flex-direction: column;
-        
+        align-items: center;
     }
     
     .sdk{
         width:fit-content;
         margin-bottom: 2em;
-        height: auto;
+        
     }
 
     footer{

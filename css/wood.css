@@ -107,7 +107,7 @@ th{
     height: 2em;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .overall{
         width:100%;
         height: 100%;     
@@ -127,7 +127,7 @@ th{
     }
 
     #display-data{
-        padding-top: 25rem;
+        padding-top: 10em;
     }
 
     
